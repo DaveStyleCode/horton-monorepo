@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Experience Mobile",
+    "slug": "experience-mobile",
+    "version": "1.0.0",
+    "sdkVersion": "51.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"]
+  }
+}

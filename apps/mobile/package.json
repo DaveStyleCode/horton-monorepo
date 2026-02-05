@@ -1,0 +1,24 @@
+{
+  "name": "@drhorton/mobile",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "lint": "biome check ."
+  },
+  "dependencies": {
+    "@sanity/client": "^6.0.0",
+    "expo": "^51.0.39",
+    "expo-status-bar": "^1.12.0",
+    "nativewind": "^4.0.0",
+    "react": "18.2.0",
+    "react-native": "^0.74.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3"
+  }
+}
