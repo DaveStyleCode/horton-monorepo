@@ -21,7 +21,7 @@ Sanity
   - `apps/experience-builder/.env.example` -> `.env.local`
 - Required keys:
   - `SANITY_STUDIO_PROJECT_ID`
-  - `SANITY_STUDIO_DATASET`
+  - `SANITY_STUDIO_DATASET=production`
   - `SANITY_STUDIO_PORT` (3333 and 3334 for community and experience builders respectively)
 
 Next.js
@@ -30,7 +30,7 @@ Next.js
   - `apps/website/.env.example` -> `.env.local`
 - Required keys:
   - `NEXT_PUBLIC_SANITY_PROJECT_ID`
-  - `NEXT_PUBLIC_SANITY_DATASET`
+  - `NEXT_PUBLIC_SANITY_DATASET=production`
 
 React Native
 
@@ -38,4 +38,4 @@ React Native
   - `apps/mobile/.env.example` -> `.env.local`
 - Required keys:
   - `EXPO_PUBLIC_SANITY_PROJECT_ID`
-  - `EXPO_PUBLIC_SANITY_DATASET`
+  - `EXPO_PUBLIC_SANITY_DATASET=production`
